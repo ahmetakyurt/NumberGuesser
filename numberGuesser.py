@@ -3,7 +3,7 @@ import random
 print("Welcome to number guessing game!")
 print("The number is going to be between 0 and 100")
 
-randomNum = 69
+randomNum = random.randint(0,100)
 guessCount = 0
 
 def optimalCount(number):
@@ -13,7 +13,7 @@ def optimalCount(number):
     guessedNumber3 = 50
     while True:
         guessCount +=1
-        if guessedNumber1 == randomNum:
+        if guessedNumber1 == number:
             print("Great! You won.")
             break
         elif guessedNumber1 < number: #yukarı
