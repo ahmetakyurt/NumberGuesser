@@ -1,27 +1,5 @@
 import random
 
-'''
-random_number = random.randint(1, 100)
-attempts = 0
-print("Welcome to the Number Guesser Game!")
-while True:
-    user_guess = input("Guess a number between 1 and 100: ")
-    attempts += 1
-    try:
-        user_guess = int(user_guess)
-    except ValueError:
-        print("Please enter a valid integer.")
-        continue
-
-    if user_guess < random_number:
-        print("Too low! Try again.")
-    elif user_guess > random_number:
-        print("Too high! Try again.")
-    else:
-        print(f"Congratulations! You've guessed the number {random_number} in {attempts} attempts.")
-        break
-    '''
-
 print("Welcome to number guessing game!")
 print("The number is going to be between 0 and 100")
 
